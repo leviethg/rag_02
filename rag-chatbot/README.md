@@ -1,7 +1,7 @@
 # 🤖 Chat with multiple PDFs locally
 
-![Demo](assets/demo.png)
-
+![Demo_01](assets/demo_01.png)
+![Demo_02](assets/demo_02.png)
 # ⭐️ Key Features
 
 - Easy to run on `Local`
@@ -38,5 +38,6 @@ docker-compose up app chromadb
 ```
 
 ### 2. Go to: `http://localhost:7860/` after setup completed
+
 
 
