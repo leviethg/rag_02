@@ -1,7 +1,7 @@
 # 🤖 Chat with multiple PDFs locally
 
-![Demo_01](assets/demo_01.png)
-![Demo_02](assets/demo_02.png)
+![Demo_01](assets/demo_01.jpg)
+![Demo_02](assets/demo_02.jpg)
 # ⭐️ Key Features
 
 - Easy to run on `Local`
@@ -9,12 +9,6 @@
 - Process multiple files in succession.
 - Chat with multiples languages (Vietnamese or English).
 - Simple UI with `Gradio`.
-
-# 💡 Idea
-
-![](./assets/rag-flow.svg)
-
-![](./assets/retriever.svg)
 
 ## 1. 💻 Setup in Local
 
@@ -30,7 +24,7 @@ cd rag_02/rag-chatbot
 ```bash
 docker compose up --build
 ```
-
+In \rag_chatbot\setting\setting.py, replace [YOUR_OPENROUTER_API_KEY] with your own key.
 ### 1.3 Run
 
 ```bash
@@ -38,6 +32,7 @@ docker-compose up app chromadb
 ```
 
 ### 2. Go to: `http://localhost:7860/` after setup completed
+
 
 
 
