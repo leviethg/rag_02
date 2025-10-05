@@ -1,4 +1,4 @@
-# 🤖 Chat with multiple PDFs locally
+# 🤖 Chat with multiple PDFs/TXTs locally
 
 ![Demo_01](assets/demo_01.jpg)
 ![Demo_02](assets/demo_02.jpg)
@@ -31,7 +31,8 @@ In \rag_chatbot\setting\setting.py, replace [YOUR_OPENROUTER_API_KEY] with your 
 docker-compose up app chromadb
 ```
 
-### 2. Go to: `http://localhost:7860/` after setup completed
+### 2. 🐋 Go to: `http://localhost:7860/` after setup completed, and enjoy the RAG chatbot.
+
 
 
 
