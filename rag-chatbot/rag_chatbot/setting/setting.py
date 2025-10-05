@@ -8,7 +8,7 @@ class OpenRouterSettings(BaseModel):
         description="Default and only LLM model (via OpenRouter)"
     )
     api_key: str = Field(
-        default="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",
+        default=[YOUR_OPENROUTER_API_KEY],
         description="OpenRouter API key"
     )
     temperature: float = Field(
@@ -97,3 +97,4 @@ class RAGSettings(BaseModel):
     retriever: RetrieverSettings = RetrieverSettings()
     ingestion: IngestionSettings = IngestionSettings()
     storage: StorageSettings = StorageSettings()
+
