@@ -29,10 +29,10 @@ class LocalChatEngine:
     ) -> CondensePlusContextChatEngine | SimpleChatEngine:
 
         # tap = TapAllEventsHandler("CB")
-        Settings.callback_manager.add_handler(tap)
+        # Settings.callback_manager.add_handler(tap)
 
-        if getattr(llm, "callback_manager", None) and llm.callback_manager is not Settings.callback_manager:
-            llm.callback_manager.add_handler(tap)
+        # if getattr(llm, "callback_manager", None) and llm.callback_manager is not Settings.callback_manager:
+        #   llm.callback_manager.add_handler(tap)
 
         cbm = Settings.callback_manager
         
@@ -61,4 +61,5 @@ class LocalChatEngine:
             ),
             callback_manager=cbm,
         )
+
 
