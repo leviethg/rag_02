@@ -6,7 +6,7 @@ from typing import List
 from .retriever import LocalRetriever
 from ...setting import RAGSettings
 from llama_index.core import Settings
-from rag_chatbot.core.model.model import TapAllEventsHandler
+#from rag_chatbot.core.model.model import TapAllEventsHandler
 
 
 
@@ -61,3 +61,4 @@ class LocalChatEngine:
             ),
             callback_manager=cbm,
         )
+
