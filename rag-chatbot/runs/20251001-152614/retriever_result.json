@@ -1,0 +1,32 @@
+[
+  {
+    "retriever_type": "base",
+    "hit_rate@20": 0.779,
+    "mrr@20": 0.712,
+    "num_queries": 120
+  },
+  {
+    "retriever_type": "bm25",
+    "hit_rate@20": 0.723,
+    "mrr@20": 0.665,
+    "num_queries": 120
+  },
+  {
+    "retriever_type": "base_rerank",
+    "hit_rate@20": 0.692,
+    "mrr@20": 0.577,
+    "num_queries": 120
+  },
+  {
+    "retriever_type": "bm25_rerank",
+    "hit_rate@20": 0.758,
+    "mrr@20": 0.663,
+    "num_queries": 120
+  },
+  {
+    "retriever_type": "router",
+    "hit_rate@20": 0.787,
+    "mrr@20": 0.67,
+    "num_queries": 120
+  }
+]
