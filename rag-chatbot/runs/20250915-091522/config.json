@@ -1,0 +1,22 @@
+{
+  "timestamp": "20250925-091522",
+  "num_queries": 120,
+  "retriever": {
+    "similarity_top_k": 20,
+    "num_queries": 5,
+    "top_k_rerank": 6,
+    "retriever_types": [
+      "base",
+      "bm25",
+      "base_rerank",
+      "bm25_rerank",
+      "router"
+    ]
+  },
+  "generation": {
+    "llm": "mistralai/mistral-small-3.2-24b-instruct:free",
+    "teacher": "openai/gpt-oss-120b:free",
+    "batch_size": 10,
+    "sleep_between_batches": 5
+  }
+}
